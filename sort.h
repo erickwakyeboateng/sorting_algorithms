@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include <stddef.h>
+#include <stddef.>
 
 /**
  * struct listint_s - Doubly linked list node
@@ -24,12 +24,5 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-void print_array(const int *array, size_t size);
-void print_list(const listint_t *list);
-void kwik_e_sort(int *array, size_t size, int first, int last);
-int lomuto(int *array, size_t size, int first, int last);
-void hoare_sort(int *array, size_t size, size_t first, size_t last);
-void quick_sort_hoare(int *array, size_t size);
-void swapi(listint_t *node);
 
 #endif
