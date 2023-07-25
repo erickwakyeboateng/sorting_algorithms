@@ -31,4 +31,6 @@ void hoare_sort(int *array, size_t size, size_t first, size_t last);
 void quick_sort_hoare(int *array, size_t size);
 void swapi(listint_t *node);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+listint_t *swap_node(listint_t *node, listint_t **list);
 #endif
